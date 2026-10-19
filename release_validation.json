@@ -1,0 +1,14 @@
+{
+  "candidate": "r13",
+  "agent_sha256": "5c65d57f051e589e0e49249b874f6f2ab33959291f260459953c5f20085e2d02",
+  "public_selfcheck_passed": true,
+  "public_safety_checks_passed": 4,
+  "isolated_reload_order_parity": true,
+  "actual_public_runner_four_phase_cost_paths_passed": true,
+  "daily_decisions": 8056,
+  "research_cash_qualification_passed": false,
+  "independent_research_qualification": false,
+  "new_local_refinements": 1,
+  "refinement_rejected_preserve_r13": true,
+  "initial_installed_commit": "3167218a7f4e317bc954d56918d9c4eb78eb6974"
+}

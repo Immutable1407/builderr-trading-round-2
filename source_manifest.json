@@ -1,0 +1,49 @@
+{
+  "candidate": "r13",
+  "agent_sha256": "5c65d57f051e589e0e49249b874f6f2ab33959291f260459953c5f20085e2d02",
+  "builder_sha256": "e54ae346b1a46404e7eb7a565b4787b6b32d0567c5b9bb5dd7e3eaf7c76a6d95",
+  "modules": {
+    "seed": {
+      "original_path": "research/frontier/online_synthesis/agents/online_graph_4.py",
+      "original_sha256": "660049a9fb337bea02924d4f1a2d8c5d46469d9e4d786f9b7a3918897981ac58",
+      "bundled_source_sha256": "c1a8ec16083af01c9fd4c6c5a26e539f9a010a0068cb3b38f1cb6dd38517436c",
+      "function_class_asts_unchanged": true
+    },
+    "policy": {
+      "original_path": "research/frontier/depth_optimization/policy.py",
+      "original_sha256": "ed881b328df73879600b6e94db52b374072f9e17ed3df0a2836a27e66247e5f1",
+      "bundled_source_sha256": "fe9c60ee5158c988b9ef94d71928d0f85a68acc5c4cb9bf80326f0fa74d7eefe",
+      "function_class_asts_unchanged": true
+    },
+    "exhaustive": {
+      "original_path": "research/frontier/depth_optimization/exhaustive_baskets.py",
+      "original_sha256": "849259b82a893ad88c47972483184f7867c34cb3dd94620a9603d39090eae5da",
+      "bundled_source_sha256": "3ebf36d46f40d05c8538678c0491b8647e82ec4d2e636b755750d03210413542",
+      "function_class_asts_unchanged": true
+    },
+    "relative": {
+      "original_path": "research/frontier/depth_optimization/relative_risk_budget.py",
+      "original_sha256": "5921cb0321b78fa4ad618caf9f61fd0b6317b439c6e2d985aad1fabffed54bc8",
+      "bundled_source_sha256": "e82a6e1bdeaa0457bdd95ac88799426c18a922083b0c700cc84bda0c94f5625c",
+      "function_class_asts_unchanged": true
+    },
+    "median": {
+      "original_path": "research/frontier/depth_optimization/median_horizon_selection.py",
+      "original_sha256": "bec7ab05b88d0bcbfa28cc2e1869e79740e70d5cad59ad132bc38f63fd4c883f",
+      "bundled_source_sha256": "e7bebd5c403bd0a9fe77f1777db4d0ebbf919ce5c4fefc6d838639a7ad944d8d",
+      "function_class_asts_unchanged": true
+    },
+    "entry": {
+      "original_path": "research/frontier/depth_optimization/stable_entry_utility.py",
+      "original_sha256": "541a231fb7cbd15d933ee922a28c2e07672dd5e38c08c381b19ddf8e285ed3c7",
+      "bundled_source_sha256": "3435de388916469aa2bb0900998fd92074b721b134d379d481130c7bdb6cb1c6",
+      "function_class_asts_unchanged": true
+    }
+  },
+  "strategy_parameters_changed": false,
+  "no_bundled_market_data_for_decisions": true,
+  "runtime_local_file_reads": false,
+  "required_dependency": "numpy==2.2.6",
+  "research_cash_qualification_passed": false,
+  "status": "local candidate; standalone parity/public checks/competition comparison pending"
+}
